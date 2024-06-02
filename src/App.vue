@@ -1,20 +1,10 @@
 <template>
   <div>
-   <SideBar /> 
-  </div>
-  <div>
-    <ClientVue/>
-    <LoginVue />
-    <CoverPageVue />
+   <RouterView />
   </div>
 </template>
 
 <script setup>
-import ClientVue from './components/Client.vue';
-import CoverPageVue from './components/CoverPage.vue';
-import LoginVue from './components/Login.vue';
-import Login from './components/Login.vue';
-import SideBar from './components/SideBar.vue';
 
 
 </script>
